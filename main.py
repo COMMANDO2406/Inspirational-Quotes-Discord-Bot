@@ -6,7 +6,7 @@ import random
 URL = "https://api.goprogram.ai/inspiration"
 r = requests.get(URL)
 x = r.json()
-# print(x)
+
 quote = x["quote"] 
 author = x["author"]
 print(quote)
@@ -25,14 +25,14 @@ font = ImageFont.truetype("arial.ttf", fontsize)
 
 max_width = int(0.8 * width)
 
-# quote box spaghetti inefficient code
+# quote text-box positional logic
 quote_bbox = draw.textbbox((0, 0), quote, font=font)
 quote_width = quote_bbox[2] - quote_bbox[0]
 quote_height = quote_bbox[3] - quote_bbox[1]
 quote_x = (width - quote_width) // 2
 quote_y = (height - quote_height) // 2
 
-# author box spaghetti inefficient code
+# author text-box positional logic
 author_bbox = draw.textbbox((0, 0), author, font=font)
 author_width = author_bbox[2] - author_bbox[0]
 author_height = author_bbox[3] - author_bbox[1]
