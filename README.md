@@ -20,7 +20,7 @@ Contributions, suggestions, and feedback are welcome! If you encounter any issue
 # Background Image Credits:
 https://www.pexels.com/search/quote%20background%20blank/?orientation=landscape
 
-Disclaimer: The images and quotes used in this application are not owned by the developer. They are fetched from external sources, such as APIs, and are used for illustrative purposes only. If you are the rightful owner of any of the images or quotes used in this application and wish to have them removed, please contact me, and I will promptly address your request. I respect intellectual property rights and am committed to resolving any issues regarding the unauthorized use of copyrighted material.
-
 # API Used: 
 https://api.goprogram.ai/inspiration/docs/
+
+Disclaimer: The images and quotes used in this application are not owned by the developer. They are fetched from external sources, such as APIs, and are used for illustrative purposes only. If you are the rightful owner of any of the images or quotes used in this application and wish to have them removed, please contact me, and I will promptly address your request. I respect intellectual property rights and am committed to resolving any issues regarding the unauthorized use of copyrighted material.
