@@ -16,10 +16,8 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if bot.user.mentioned_in(message):  # Check if the bot is mentioned in the message
-        await inspire(message)  # Call the inspire command when the bot is mentioned
-
-    await bot.process_commands(message)  # Process other commands if any
+    if bot.user in message.mentions:
+        await inspire(message)
 
 async def inspire(message):
     # Execute main.py to generate the quote and image
