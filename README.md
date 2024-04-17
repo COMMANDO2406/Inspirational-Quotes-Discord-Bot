@@ -1,5 +1,8 @@
 # Inspirational-Quotes-Bot
-
+quick install:
+```python
+pip install -r requirements.txt
+```
 ## Todo
   - update docs in [usage.md](Docs/usage.md)
   - create documentation for code
