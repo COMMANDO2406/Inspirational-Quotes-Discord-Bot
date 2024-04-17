@@ -2,8 +2,7 @@ import discord
 from discord.ext import commands
 import subprocess
 
-BOT_TOKEN = "BOT TOKEN"
-# If you want to test out this bot you can read BOT_SETUP.md for instructions on how to run this
+BOT_TOKEN = "BOT_TOKEN"
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -21,10 +20,10 @@ async def on_message(message):
 
 async def inspire(message):
     # Execute main.py to generate the quote and image
-    subprocess.run(['python', 'main.py'])
+    subprocess.run(['python', './src/image_gen.py'])
 
     # Send the image as a file on Discord
-    with open('Output.png', 'rb') as f:
+    with open('Outputs/Output.png', 'rb') as f:
         image_file = discord.File(f)
         await message.channel.send(file=image_file)
 
