@@ -1,12 +1,12 @@
 # Inspirational-Quotes-Bot
 
 ## Todo
-[ ] update docs in [usage.md](Docs/usage.md)
-[ ] create documentation for code
-[ ] create tests
+  - update docs in [usage.md](Docs/usage.md)
+  - create documentation for code
+  - create tests
 
-# structure:
-
+# Structure:
+```
 Inspirational-Quotes-Bot/
 ├── requirements.txt            # Lists Python dependencies
 ├── setup.py                    # Setup for python dependencies
@@ -24,7 +24,7 @@ Inspirational-Quotes-Bot/
 ├── tests/
 │   └──  test_sample.py         # Test sample
 └── web/                        # Code for the web version (to implement)
+```
 
-
-# credit
+# Credit
 https://www.pexels.com/search/quote%20background%20blank/?orientation=landscape
