@@ -23,7 +23,7 @@ print(quote)
 print("- ", author)
 
 # get image
-x = (random.randint(1,11))
+x = (random.randint(1,14))
 img_path = "Background-Images/{imagename}.jpg"
 img = Image.open(img_path.format(imagename = x))
 
