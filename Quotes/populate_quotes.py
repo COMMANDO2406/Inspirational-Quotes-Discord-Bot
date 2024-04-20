@@ -29,6 +29,6 @@ def fetch_quotes_and_append_to_json(num_quotes, filename):
         json.dump(quotes, file, indent=4)
 
 # example usage:
-num_quotes_to_fetch = 1
+num_quotes_to_fetch = 13
 json_filename = "Quotes/inspirational_from_quotable.json"
 fetch_quotes_and_append_to_json(num_quotes_to_fetch, json_filename)
