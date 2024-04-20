@@ -31,16 +31,16 @@ draw = ImageDraw.Draw(img)
 width, height = img.size
 
 # max quote width
-max_quote_width = int(0.95 * width)
+max_quote_width = int(0.85 * width)
 
 # initial font size
-fontsize = 30
-font = ImageFont.truetype("arial.ttf", fontsize)
+fontsize = 100
+font = ImageFont.truetype("fonts/JetBrainsMonoNerdFont-Medium.ttf", fontsize)
 
 # reduce font size until the quote fits within the max width
 while font.getbbox(quote)[2] > max_quote_width:
     fontsize -= 1
-    font = ImageFont.truetype("arial.ttf", fontsize)
+    font = ImageFont.truetype("fonts/JetBrainsMonoNerdFont-Medium.ttf", fontsize)
 
 # quote text-box positional logic
 quote_bbox = draw.textbbox((0, 0), quote, font=font)

@@ -15,7 +15,7 @@ def fetch_quotes_and_append_to_json(num_quotes, filename):
 
     # fetch new quotes and append them to the existing list
     for _ in range(num_quotes):
-        response = requests.get("https://api.quotable.io/random")
+        response = requests.get("https://api.quotable.io/random?maxLength=65")
         if response.status_code == 200:
             data = response.json()
             quote = data["content"]
@@ -29,6 +29,6 @@ def fetch_quotes_and_append_to_json(num_quotes, filename):
         json.dump(quotes, file, indent=4)
 
 # example usage:
-num_quotes_to_fetch = 13
+num_quotes_to_fetch = 11
 json_filename = "Quotes/inspirational_from_quotable.json"
 fetch_quotes_and_append_to_json(num_quotes_to_fetch, json_filename)

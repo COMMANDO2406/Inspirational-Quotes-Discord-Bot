@@ -4,10 +4,6 @@
         "author": "Thomas Paine"
     },
     {
-        "quote": "As an elephant in the battlefield withstands arrows shot from bows all around, even so shall I endure abuse.",
-        "author": "The Buddha"
-    },
-    {
         "quote": "Humanity is acquiring all the right technology for all the wrong reasons.",
         "author": "Buckminster Fuller"
     },
@@ -24,16 +20,8 @@
         "author": "Maya Lin"
     },
     {
-        "quote": "A wise man can learn more from a foolish question than a fool can learn from a wise answer.",
-        "author": "Bruce Lee"
-    },
-    {
         "quote": "Imagination is not a talent of some men but is the health of every man.",
         "author": "Ralph Waldo Emerson"
-    },
-    {
-        "quote": "If you must tell me your opinions, tell me what you believe in. I have plenty of doubts of my own.",
-        "author": "Johann Wolfgang von Goethe"
     },
     {
         "quote": "Knowing is not enough; we must apply!",
@@ -48,24 +36,12 @@
         "author": "COMMANDO"
     },
     {
-        "quote": "Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.",
-        "author": "Julie Morgenstern"
-    },
-    {
-        "quote": "Notice that the stiffest tree is most easily cracked, while the bamboo or willow survives by bending with the wind.",
-        "author": "Bruce Lee"
-    },
-    {
         "quote": "I can, therefore I am.",
         "author": "Simone Weil"
     },
     {
         "quote": "Be slow in choosing a friend, slower in changing.",
         "author": "Benjamin Franklin"
-    },
-    {
-        "quote": "I don't turn to greeting cards for wisdom and advice, but they are a fine reflection of the general drift of the culture.",
-        "author": "Susan Orlean"
     },
     {
         "quote": "Technology has to be invented or adopted.",
@@ -86,10 +62,6 @@
     {
         "quote": "You always have two choices: your commitment versus your fear.",
         "author": "Sammy Davis Jr."
-    },
-    {
-        "quote": "When you see a man of worth, think of how you may emulate him. When you see one who is unworthy, examine yourself.",
-        "author": "Confucius"
     },
     {
         "quote": "Do not wait for leaders; do it alone, person to person.",
@@ -128,10 +100,6 @@
         "author": "Ralph Marston"
     },
     {
-        "quote": "Friendship is a strong and habitual inclination in two persons to promote the good and happiness of one another.",
-        "author": "Eustace Budgell"
-    },
-    {
         "quote": "Life is 10% what happens to you and 90% how you react to it.",
         "author": "Chuck Swindoll"
     },
@@ -142,18 +110,6 @@
     {
         "quote": "You cannot have what you do not want.",
         "author": "John Acosta"
-    },
-    {
-        "quote": "Six essential qualities that are the key to success: Sincerity, personal integrity, humility, courtesy, wisdom, charity.",
-        "author": "William C. Menninger"
-    },
-    {
-        "quote": "I have just three things to teach: simplicity, patience, compassion. These three are your greatest treasures.",
-        "author": "Laozi"
-    },
-    {
-        "quote": "The aim of life is self-development. To realize one's nature perfectly - that is what each of us is here for.",
-        "author": "Oscar Wilde"
     },
     {
         "quote": "Correction does much, but encouragement does more.",
@@ -170,14 +126,6 @@
     {
         "quote": "Our strength grows out of our weaknesses.",
         "author": "Ralph Waldo Emerson"
-    },
-    {
-        "quote": "To be what we are, and to become what we are capable of becoming, is the only end of life.",
-        "author": "Robert Louis Stevenson"
-    },
-    {
-        "quote": "Sometimes your joy is the source of your smile, but sometimes your smile can be the source of your joy.",
-        "author": "Th\u00edch Nh\u1ea5t H\u1ea1nh"
     },
     {
         "quote": "Time stays long enough for anyone who will use it.",
@@ -198,5 +146,57 @@
     {
         "quote": "Logic is the beginning of wisdom, not the end.",
         "author": "Leonard Nimoy"
+    },
+    {
+        "quote": "Music in the soul can be heard by the universe.",
+        "author": "Laozi"
+    },
+    {
+        "quote": "I walk slowly, but I never walk backward.",
+        "author": "Abraham Lincoln"
+    },
+    {
+        "quote": "Love is the attempt to form a friendship inspired by beauty.",
+        "author": "Cicero"
+    },
+    {
+        "quote": "It's better to be a lion for a day than a sheep all your life.",
+        "author": "Elizabeth Kenny"
+    },
+    {
+        "quote": "God always takes the simplest way.",
+        "author": "Albert Einstein"
+    },
+    {
+        "quote": "Do not turn back when you are just at the goal.",
+        "author": "Publilius Syrus"
+    },
+    {
+        "quote": "Technology is the campfire around which we tell our stories.",
+        "author": "Laurie Anderson"
+    },
+    {
+        "quote": "Beware of false knowledge; it is more dangerous than ignorance.",
+        "author": "Bernard Shaw"
+    },
+    {
+        "quote": "Most powerful is he who has himself in his own power.",
+        "author": "Seneca the Younger"
+    },
+    {
+        "quote": "We must not allow ourselves to become like the system we oppose.",
+        "author": "Desmond Tutu"
+    },
+    {
+        "quote": "Not engaging in ignorance is wisdom.",
+        "author": "Bodhidharma"
+    },
+    {
+        "quote": "All human wisdom is summed up in two words; wait and hope.",
+        "author": "Alexandre Dumas"
+    },
+    {
+        "quote": "The heart has its reasons which reason knows not of.",
+        "author": "Blaise Pascal"
     }
 ]
