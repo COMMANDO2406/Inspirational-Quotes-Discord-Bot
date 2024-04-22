@@ -12,7 +12,7 @@ x = r.json()
 """
 
 # load quotes from local JSON file
-with open("Quotes/inspirational_from_quotable.json", "r") as file:
+with open("quotes/inspirational_from_quotable.json", "r") as file:
     quotes_data = json.load(file)
 
 # choose a random quote from the loaded data
@@ -24,7 +24,7 @@ print("- ", author)
 
 # get image
 x = (random.randint(1,14))
-img_path = "Background-Images/{imagename}.jpg"
+img_path = "background-images/{imagename}.jpg"
 img = Image.open(img_path.format(imagename = x))
 
 draw = ImageDraw.Draw(img)
@@ -61,4 +61,4 @@ draw.text((quote_x, quote_y), quote, font=font, fill='white')
 draw.text((author_x, author_y), "- " + author, font=font, fill='white')
 
 # debug: img.show()
-img.save("Outputs/Output.png", format="PNG")
+img.save("outputs/Output.png", format="PNG")
