@@ -1,9 +1,8 @@
 import discord
 from discord.ext import commands
 import subprocess
+from config import BOT_TOKEN
 #import time
-
-BOT_TOKEN = "BOT_TOKEN"
 
 intents = discord.Intents.default()
 intents.message_content = True

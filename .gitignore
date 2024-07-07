@@ -1,3 +1,4 @@
 notes/
 experimental/
 .venv/
+src/__pycache__
