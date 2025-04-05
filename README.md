@@ -3,6 +3,10 @@ quick install:
 ```python
 pip install -r requirements.txt
 ```
+# Examples
+![image](https://github.com/user-attachments/assets/86241e82-03e1-4aff-b2d5-52749d6e2710)
+
+
 ## Todo
   - update docs in [usage.md](Docs/usage.md)
   - create documentation for code
